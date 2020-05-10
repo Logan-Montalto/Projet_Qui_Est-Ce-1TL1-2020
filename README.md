@@ -14,14 +14,14 @@ Nous avons comme idée de concept de concevoir un jeu se rapprochant fortement d
 # Les aspects Backend
 
 
-Une base de données permettant de mémoriser les personnages liés avec une photo , un énoncé et 2 indices.
-Un serveur web capable de fournir les pages html, js, css, ainsi que de proposer des webservices.
-Des Webservices avec les procédures associées : 
-Un webservice capable d'initialiser / réinitialiser le jeu
-Un webservice pour récupérer les informations du jeu
-Un webservice qui permet de sélectionner un personnage ainsi que son énoncé 
-Un webservice pour les indices
-Un webservice pour les points  
+- Une base de données permettant de mémoriser les personnages liés avec une photo , un énoncé et 2 indices.
+- Un serveur web capable de fournir les pages html, js, css, ainsi que de proposer des webservices.
+- Des Webservices avec les procédures associées : 
+- Un webservice capable d'initialiser / réinitialiser le jeu
+- Un webservice pour récupérer les informations du jeu
+- Un webservice qui permet de sélectionner un personnage ainsi que son énoncé 
+- Un webservice pour les indices
+- Un webservice pour les points  
 ...
 
 
@@ -29,13 +29,13 @@ Un webservice pour les points
 
 
 Une page web (html, js, css) permettant d'appeler les webservices et de traiter les réponses, qui propose une interface utilisateur pour :
-Rafraîchir le jeu
-Afficher le jeu
-Comptage de points
-Affichage des indices
-Affichage du résultat
-Permettre un structure CSS
-Calculer le temps passé par niveau 
+- Rafraîchir le jeu
+- Afficher le jeu
+- Comptage de points
+- Affichage des indices
+- Affichage du résultat
+- Permettre un structure CSS
+- Calculer le temps passé par niveau 
 ...
 
 
