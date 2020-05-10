@@ -132,3 +132,5 @@ __Endpoint__ : http://localhost:80/serv_userConnection
 
 
 # Diagramme représentant les détails de la DataBase
+
+.. image ::
