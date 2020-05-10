@@ -1,7 +1,6 @@
 Projet_Qui_Est-Ce-1TL1-2020
 ======
 
-# Présentation de l'équipe
 
 Louis Bauchau, Merwane Ben-tahri, Miguel Antoons, Logan Montalto
 
@@ -15,7 +14,7 @@ Nous avons comme idée de concept de concevoir un jeu se rapprochant fortement d
 # Les aspects Backend
 
 
-- Une base de données permettant de mémoriser les personnages du jeu liés avec une photo , un énoncé, 2 indices et aussi d'encoder et de connecter des utilisateurs au jeu.
+- Une base de données permettant de mémoriser les personnages liés avec une photo , un énoncé et 2 indices.
 - Un serveur web capable de fournir les pages html, js, css, ainsi que de proposer des webservices.
 - Des Webservices avec les procédures associées : 
 - Un webservice capable d'initialiser / réinitialiser le jeu
@@ -23,28 +22,26 @@ Nous avons comme idée de concept de concevoir un jeu se rapprochant fortement d
 - Un webservice qui permet de sélectionner un personnage ainsi que son énoncé 
 - Un webservice pour les indices
 - Un webservice pour les points  
-
+...
 
 
 # Les aspects Frontend
 
 
 Une page web (html, js, css) permettant d'appeler les webservices et de traiter les réponses, qui propose une interface utilisateur pour :
-
 - Rafraîchir le jeu
 - Afficher le jeu
 - Comptage de points
 - Affichage des indices
-- Affichage des énoncés
 - Affichage du résultat
-- Affichage des personnages
 - Permettre un structure CSS
-
+- Calculer le temps passé par niveau 
+...
 
 
 # Détail Api Rest 
 
-Webservice pour ajouter les scores
+Webservice pour ajouter les scores<br>
 
 Auteur : commun
 Paramètres : user (utilisateur à qui on va ajouter le score) et score (qui est le score que l'on va ajouter)
