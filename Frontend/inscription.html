@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+    <script src="http://localhost:80/serv_getJS?name=Projet_progra_2020.js" type="text/javascript"></script>
+    <link href="http://localhost:80/serv_getCSS?name=connexion.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="login-page">
+        <div class="form">
+            <h1>Inscription</h1><br>
+                <form id="inscription" name="forminscription" onsubmit="return inscription()">
+                    <input type="text" id="inom" name="inom" placeholder="Nom" required><br>
+
+                    <input type="text" id="iprenom" name="iprenom" placeholder="Prénom" required><br>
+
+                    <input type="text" id="ipseudo" name="ipseudo" placeholder="Pseudo" required><br>
+
+                    <input type="password" id="icode" name="icode" placeholder="Password" required><br><br>
+
+                    <input type="submit" value="Inscription" id="inscript">
+                    <div id="erreurInscription"></div>
+                </form>
+        </div>
+    </div>
+</body>
+</html>

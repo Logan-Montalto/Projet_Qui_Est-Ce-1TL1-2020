@@ -1,0 +1,3 @@
+-n Projet_progra_2020 "C:\Users\antoo\Documents\Ephec\TP Database\Project\Version finale\Projet_progra_2020.db"
+-x tcpip
+-xs http(port=80)
