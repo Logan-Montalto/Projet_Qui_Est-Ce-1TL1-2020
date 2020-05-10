@@ -1,6 +1,6 @@
 # Projet_Qui_Est-Ce-1TL1-2020
 
-#Présentation du projet
+Présentation du projet
 
 Nous avons comme idée de concept de concevoir un jeu se rapprochant fortement de “Qui est ce ?”. Celui-ci sera composé de plusieurs niveaux et d’indices pour faciliter la découverte de la solution (indice 1 et indice 2). Cependant, si un indice est utilisé, alors le joueur perdra un certain nombre de points. Pour deviner qui est-ce, des photos de plusieurs personnages connus issus du monde réel et fictif seront présentées au joueur. De plus, la présentation du jeu sera sous forme de tableaux de jeux (photos de personnages).
 
