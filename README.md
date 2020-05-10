@@ -46,86 +46,86 @@ Une page web (html, js, css) permettant d'appeler les webservices et de traiter 
 
 ## Webservice pour ajouter les scores
 
-Auteur : commun  
-Paramètres : user (utilisateur à qui on va ajouter le score) et score (qui est le score que l'on va ajouter)  
-Format de réponse : Procédure pour ajouter des données dans la bases de données  
-Endpoint : http://localhost:80/serv_ajoutScores  
+__Auteur__ : commun  
+__Paramètres__ : user (utilisateur à qui on va ajouter le score) et score (qui est le score que l'on va ajouter)  
+__Format de réponse__ : Procédure pour ajouter des données dans la bases de données  
+__Endpoint__ : http://localhost:80/serv_ajoutScores  
 
 
 ## Webservice pour obtenir les CSS
 
-Auteur : commun  
-Paramètre : name (nom du fichier CSS)  
-Format de réponse : RAW  
-Endpoint : http://localhost:80/serv_getCSS  
+__Auteur__ : commun  
+__Paramètre__ : name (nom du fichier CSS)  
+__Format de réponse__ : RAW  
+__Endpoint__ : http://localhost:80/serv_getCSS  
 
 
 ## Webservice pour obtenir l'HTML
 
-Auteur : commun  
-Paramètre : name (nom du fichier HTML)  
-Format de réponse : RAW  
-Endpoint : http://localhost:80/serv_getHTML  
+__Auteur__ : commun  
+__Paramètre__ : name (nom du fichier HTML)  
+__Format de réponse__ : RAW  
+__Endpoint__ : http://localhost:80/serv_getHTML  
 
 
 ## Webservice pour obtenir des images JPEG
 
-Auteur : commun  
-Paramètre : name (nom de l'image)  
-Format de réponse : RAW  
-Endpoint : http://localhost:80/serv_getImage  
+__Auteur__ : commun  
+__Paramètre__ : name (nom de l'image)  
+__Format de réponse__ : RAW  
+__Endpoint__ : http://localhost:80/serv_getImage  
 
 ## Webservice pour obtenir un indice
 
-Auteur : Logan Montalto  
-Paramètres : persoChoisi (l'ID du personnage dont on a besoin un indice) numeroIndice (le numéro de l'indice, 1er ou 2ème)  
-Format de réponse : JSON  
-Endpoint : http://localhost:80/serv_getIndices  
+__Auteur__ : Logan Montalto  
+__Paramètres__ : persoChoisi (l'ID du personnage dont on a besoin un indice) numeroIndice (le numéro de l'indice, 1er ou 2ème)  
+__Format de réponse__ : JSON  
+__Endpoint__ : http://localhost:80/serv_getIndices  
 
 
 ## Webservice pour obtenir le Javascript
 
-Auteur : commun  
-Paramètres : name (le nom du fichier Javascript)  
-Format de réponse : RAW  
-Endpoint : http://localhost:80/serv_getJS  
+__Auteur__ : commun  
+__Paramètre__ : name (le nom du fichier Javascript)  
+__Format de réponse__ : RAW  
+__Endpoint__ : http://localhost:80/serv_getJS  
 
 
 ## Webservice pour obtenir les personnages choisi par le joueur
 
-Auteur : Miguel Antoons  
-Paramètre : genre (personnages fictifs, personnages réels, ou tous)  
-Format de réponse : JSON  
-Endpoint : http://localhost:80/serv_getPersonnages  
+__Auteur__ : Miguel Antoons  
+__Paramètre__ : genre (personnages fictifs, personnages réels, ou tous)  
+__Format de réponse__ : JSON  
+__Endpoint__ : http://localhost:80/serv_getPersonnages  
 
 
 ## Webservice pour obtenir une image PNG
 
-Auteur : commun  
-Paramètre : name (le nom de l'image PNG)  
-Format de réponse : RAW  
-Endpoint : http://localhost:80/serv_getPNG  
+__Auteur__ : commun  
+__Paramètre__ : name (le nom de l'image PNG)  
+__Format de réponse__ : RAW  
+__Endpoint__ : http://localhost:80/serv_getPNG  
 
 
 ## Webservice pour obtenir les scores maximales de tous les utilisateurs
 
-Auteur : Merwane Ben-Tahri  
-Paramètre : aucun  
-Format de réponse : JSON  
-Endpoint : http://localhost:80/serv_getScores  
+__Auteur__ : Merwane Ben-Tahri  
+__Paramètre__ : aucun  
+__Format de réponse__ : JSON  
+__Endpoint__ : http://localhost:80/serv_getScores  
 
 
 ## Webservice pour inscrire un utilisateur dans la base de données
 
-Auteur : Louis Bauchau  
-Paramètres : user (le pseudo de l'utilisateur), mdp (le mot de passe de l'utilisateur), nom (le nom de l'utilisateur) et prenom (le prénom de l'utilisateur)  
-Format de réponse : RAW (fontion qui insert des données dans la base de données)  
-Endpoint : http://localhost:80/serv_insertUser  
+__Auteur__ : Louis Bauchau  
+__Paramètres__ : user (le pseudo de l'utilisateur), mdp (le mot de passe de l'utilisateur), nom (le nom de l'utilisateur) et prenom (le prénom de l'utilisateur)  
+__Format de réponse__ : RAW (fontion qui insert des données dans la base de données)  
+__Endpoint__ : http://localhost:80/serv_insertUser  
 
 
 ## Webservice pour la connexion d'un utilisateur
 
-Auteur : commun  
-Paramètre : aucun  
-Format de réponse : JSON  
-Endpoint : http://localhost:80/serv_userConnection  
+__Auteur__ : commun  
+__Paramètre__ : aucun  
+__Format de réponse__ : JSON  
+__Endpoint__ : http://localhost:80/serv_userConnection  
