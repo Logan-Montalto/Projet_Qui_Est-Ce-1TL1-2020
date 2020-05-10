@@ -129,3 +129,6 @@ __Auteur__ : commun
 __Paramètre__ : aucun  
 __Format de réponse__ : JSON  
 __Endpoint__ : http://localhost:80/serv_userConnection  
+
+
+# Diagramme représentant les détails de la DataBase
