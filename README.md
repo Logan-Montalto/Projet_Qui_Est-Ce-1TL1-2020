@@ -7,17 +7,17 @@ Louis Bauchau, Merwane Ben-tahri, Miguel Antoons, Logan Montalto
 
 # Présentation du projet
 
-Nous avons comme idée de concept de concevoir un jeu se rapprochant fortement de “Qui est ce ?”. Celui-ci sera composé de plusieurs niveaux et d’indices pour faciliter la découverte de la solution (indice 1 et indice 2). Cependant, si un indice est utilisé, alors le joueur perdra un certain nombre de points. Pour deviner qui est-ce, des photos de plusieurs personnages connus issus du monde réel et fictif seront présentées au joueur. De plus, la présentation du jeu sera sous forme de tableaux de jeux (photos de personnages).
+Nous avons eu comme idée de concevoir un jeu se rapprochant fortement de “Qui est-ce ?”. Celui-ci sera composé de plusieurs niveaux et d’indices pour faciliter la découverte de la solution (indice 1 et indice 2). Cependant, si un indice est utilisé, alors le joueur perdra un certain nombre de points. Pour deviner qui est-ce, des photos de plusieurs personnages connus issus du monde réel et fictif seront présentés au joueur. De plus, la présentation du jeu sera sous forme de tableaux de jeux (photos de personnages).
 
 # Aspects implémentés 
 
 
-# Les aspects Backend
+## Les aspects Backend
 
 
-- Une base de données permettant de mémoriser les personnages du jeu liés avec une photo , un énoncé, 2 indices et aussi d'encoder et de connecter des utilisateurs au jeu.
+- Une base de données permettant de mémoriser les personnages du jeu liés avec une photo, un énoncé, 2 indices et aussi d'encoder et de connecter des utilisateurs au jeu.
 - Un serveur web capable de fournir les pages html, js, css, ainsi que de proposer des webservices.
-- Des Webservices avec les procédures associées : 
+- des webservices avec les procédures associées : 
 - Un webservice capable d'initialiser / réinitialiser le jeu
 - Un webservice pour récupérer les informations du jeu
 - Un webservice qui permet de sélectionner un personnage ainsi que son énoncé 
@@ -25,8 +25,7 @@ Nous avons comme idée de concept de concevoir un jeu se rapprochant fortement d
 - Un webservice pour les points  
 
 
-
-# Les aspects Frontend
+## Les aspects Frontend
 
 
 Une page web (html, js, css) permettant d'appeler les webservices et de traiter les réponses, qui propose une interface utilisateur pour :
