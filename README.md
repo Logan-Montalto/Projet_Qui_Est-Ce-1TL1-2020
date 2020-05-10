@@ -133,4 +133,4 @@ __Endpoint__ : http://localhost:80/serv_userConnection
 
 # Diagramme représentant les détails de la DataBase
 
-.. image ::
+![dbprojet](https://user-images.githubusercontent.com/64017390/81507922-db7e6c00-9300-11ea-8cc0-ae7d43eb02e5.png)
