@@ -44,7 +44,7 @@ Une page web (html, js, css) permettant d'appeler les webservices et de traiter 
 
 # Détail Api Rest 
 
-Webservice pour ajouter les scores<br>
+Webservice pour _ajouter les scores_
 
 Auteur : commun
 Paramètres : user (utilisateur à qui on va ajouter le score) et score (qui est le score que l'on va ajouter)
