@@ -12,7 +12,7 @@ function inscription() {
     let L4i = document.getElementById("icode").value;
 
     let xhr = new XMLHttpRequest();
-    xhr.open('get', "http://localhost/serv_insertUser?user=" + L3i + "&mdp="+ L4i + "&nom="+ L1i + "&prenom="+ L2i, true);
+    xhr.open('get', "/serv_insertUser?user=" + L3i + "&mdp="+ L4i + "&nom="+ L1i + "&prenom="+ L2i, true);
     xhr.onload = traitementInscription;
     xhr.send();
     localStorage.setItem('ligne1c', L3i);
@@ -30,6 +30,6 @@ function traitementInscription(){
         document.getElementById('erreurInscription').innerHTML = "<br>Nom d'utilisateur ou mot de passe déjà utilisé<br>";
     }
     else{
-        window.open('http://localhost/serv_getHTML?name=index.html', '_self');
+        window.open('/serv_getHTML?name=index.html', '_self');
     }
 }
