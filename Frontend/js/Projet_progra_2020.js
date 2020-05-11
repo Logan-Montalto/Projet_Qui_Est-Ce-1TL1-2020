@@ -20,7 +20,7 @@
  */
 function switchPage(path){
     let xhr = new XMLHttpRequest();
-    xhr.open('get', 'http://localhost:80/serv_getHTML?name=' + path, true);
+    xhr.open('get', '/serv_getHTML?name=' + path, true);
     xhr.onload = loadMainContent;
     xhr.send();
 }
@@ -50,7 +50,7 @@ function inscription() {
     let L4i = document.getElementById("icode").value;
 
     let xhr = new XMLHttpRequest();
-    xhr.open('get', "http://localhost/serv_insertUser?user=" + L3i + "&mdp="+ L4i + "&nom="+ L1i + "&prenom="+ L2i, true);
+    xhr.open('get', "/serv_insertUser?user=" + L3i + "&mdp="+ L4i + "&nom="+ L1i + "&prenom="+ L2i, true);
     xhr.onload = traitementInscription;
     xhr.send();
     localStorage.setItem('ligne1c', L3i);
@@ -68,7 +68,7 @@ function traitementInscription(){
         document.getElementById('erreurInscription').innerHTML = "<br>Nom d'utilisateur ou mot de passe déjà utilisé<br>";
     }
     else{
-        window.open('http://localhost/serv_getHTML?name=index.html', '_self');
+        window.open('/serv_getHTML?name=index.html', '_self');
     }
 }
 
@@ -86,7 +86,7 @@ function connexion() {
     let L2 = document.getElementById("ccode").value;
 
     let xhr = new XMLHttpRequest();
-    xhr.open('get', "http://localhost/serv_userConnection", true);
+    xhr.open('get', "/serv_userConnection", true);
     xhr.onload = traiterConnexion;
     xhr.send();
     localStorage.setItem('ligne1c', L1);
@@ -106,7 +106,7 @@ function traiterConnexion() {
 
     for(let e of response) {
         if (e.NomUtilisateur === lectureUser && e.MDP === lectureMdp) {
-            window.open('http://localhost/serv_getHTML?name=index.html', '_self');
+            window.open('/serv_getHTML?name=index.html', '_self');
             break;
         }
         else{
@@ -158,7 +158,7 @@ function categoryChoice(){
  */
 function getPersonnages(genres){
     let xhr = new XMLHttpRequest();
-    xhr.open('get', 'http://localhost:80/serv_getPersonnages?genre=' + genres, true);
+    xhr.open('get', '/serv_getPersonnages?genre=' + genres, true);
     xhr.onload = recupPersonnages;
     xhr.send();
 }
@@ -190,7 +190,7 @@ function afficherPersonnages(){
                 stringPersonnages += "<tr>";
             }
         }
-        stringPersonnages += "<td class='photoPerso' id='" + pictures[i][0] + "' onclick='verificationReponse(this.id)'><img alt='" + pictures[i][1] + "' src='http://localhost:80/serv_getImage?name=" + pictures[i][1] + "'></td>";
+        stringPersonnages += "<td class='photoPerso' id='" + pictures[i][0] + "' onclick='verificationReponse(this.id)'><img alt='" + pictures[i][1] + "' src='/serv_getImage?name=" + pictures[i][1] + "'></td>";
     }
     document.getElementById('photoTbody').innerHTML = stringPersonnages;
 }
@@ -292,7 +292,7 @@ function verificationReponse(idPerso){
  */
 function getIndices(n_indice, idPerso){
     let xhr = new XMLHttpRequest();
-    xhr.open('get', 'http://localhost:80/serv_getIndices?persoChoisi=' + idPerso + '&numeroIndice=' + n_indice, true);
+    xhr.open('get', '/serv_getIndices?persoChoisi=' + idPerso + '&numeroIndice=' + n_indice, true);
     xhr.onload = traitementIndices;
     xhr.send();
 }
@@ -314,7 +314,7 @@ function traitementIndices(){
  */
 function enregistrerResultat(score, pseudoJoueur){
     let xhr = new XMLHttpRequest();
-    xhr.open('get', 'http://localhost:80/serv_ajoutScores?user=' + pseudoJoueur + '&score=' + score, true);
+    xhr.open('get', '/serv_ajoutScores?user=' + pseudoJoueur + '&score=' + score, true);
     xhr.send();
 }
 
@@ -324,7 +324,7 @@ function enregistrerResultat(score, pseudoJoueur){
  */
 function afficherClassement(){
     let xhr = new XMLHttpRequest();
-    xhr.open('get', 'http://localhost:80/serv_getScores', true);
+    xhr.open('get', '/serv_getScores', true);
     xhr.onload = traitementResultat;
     xhr.send();
 }
