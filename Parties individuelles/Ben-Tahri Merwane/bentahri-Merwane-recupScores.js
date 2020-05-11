@@ -4,7 +4,7 @@
  */
 function afficherClassement(){
     let xhr = new XMLHttpRequest();
-    xhr.open('get', 'http://localhost:80/serv_getScores', true);
+    xhr.open('get', '/serv_getScores', true);
     xhr.onload = traitementResultat;
     xhr.send();
 }
