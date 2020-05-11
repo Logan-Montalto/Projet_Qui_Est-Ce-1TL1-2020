@@ -7,7 +7,7 @@
  */
 function getIndices(n_indice, idPerso){
     let xhr = new XMLHttpRequest();
-    xhr.open('get', 'http://localhost:80/serv_getIndices?persoChoisi=' + idPerso + '&numeroIndice=' + n_indice, true);
+    xhr.open('get', '/serv_getIndices?persoChoisi=' + idPerso + '&numeroIndice=' + n_indice, true);
     xhr.onload = traitementIndices;
     xhr.send();
 }
